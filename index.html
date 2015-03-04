@@ -3,55 +3,101 @@
 <head>
   <title>Eugene's Resume</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></head>
+
 <body>
-  <div id="wrapper">
-    <h1>Eugene K Chang</h1>
-    <p>
-      <img src="eugene.jpg" height="165" width="150">
-    </p>
-    <h2>Senior  Consultant</h2>
-    <h3>Chicago, IL</h3>
-    <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:e-chang@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/eugenekchang">Twitter</a></li>
-        <li><a href="http://facebook.com/eugenekchang">Facebook</a></li>
-        <li><a href="index2.html">Blog</a></li>
-      </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        Eugene studied at the Kellogg School of Management, with concentrations in Management & Strategy, Marketing, and Economics. In 2001, Eugene graduated from Cornell University with a B.S. in Chemical Engineering.  He went on to work in the Oil & Gas industry in engineering, operations, and business strategy.  Eugene currently works for Jacobs Consultancy in the Oil Sands practice.  In July 2015, Eugene will join Bain & Company as a Consultant in the Chicago office.
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
-        <h5>Senior Consultant, Jacobs Consultancy</h5>
-        <p>Refining, Petrochemicals, and Energy Practice</p>
-      </section>
-      <section>
-        <h5>Business Analyst, Honeywell</h5>
-        <p>Business strategy, competitive strategy, and marketing</p>
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Engineering</li>
-        <li>Business Strategy</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Reading</li>
-      </ul>
-    </section>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <style>
+              .fa-film { color: red;}
+            </style>
+            <i class="fa fa-home"></i> Home
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Resume <span class="sr-only">(current)</span></a></li>
+            <li><a href="index3.html">Services</a></li>
+            <li><a href="index4.html">Achievements</a></li>
+            <li><a href="index2.html">Personal</a></li>
+          </ul>
+         
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <style>
+                  i { color: black;}
+                </style>
+                <i class="fa fa-user"></i> My Account</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+      <h1>Eugene K Chang</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <p>
+            <img src="eugene.jpg" height="165" width="150">
+          </p>
+          <h4>Senior  Consultant</h4>
+          <section>
+          <h5>Connect With Me</h5>
+            <p><a class="btn btn-primary" href="mailto:e-chang@kellogg.northwestern.edu">Email</a></li></p>
+            <p><a class="btn btn-primary" href="http://twitter.com/eugenekchang">Twitter</a></li></p>
+            <p><a class="btn btn-primary" href="http://facebook.com/eugenekchang">Facebook</a></li></p>
+            <p><a class="btn btn-primary" href="index2.html">Blog</a></li></p>
+          </section>
+        </div>
+      
+        <div class="column-md-9">
+          <section>
+          <h4>Summary</h4>
+            <p>
+              Eugene studied at the Kellogg School of Management, with concentrations in Management & Strategy, Marketing, and Economics. In 2001, Eugene graduated from Cornell University with a B.S. in Chemical Engineering.  He went on to work in the Oil & Gas industry in engineering, operations, and business strategy.  Eugene currently works for Jacobs Consultancy in the Oil Sands practice.  In July 2015, Eugene will join Bain & Company as a Consultant in the Chicago office.
+            </p>
+          </section>
+
+          <section>
+          <h4>Experience</h4>
+            <section>
+            <h5><em>Senior Consultant, Jacobs Consultancy</em></h5>
+            <p>Refining, Petrochemicals, and Energy Practice</p>
+            </section>
+            <section>
+            <h5><em>Business Analyst, Honeywell</em></h5>
+            <p>Business strategy, competitive strategy, and marketing</p>
+            </section>
+          </section>
+        
+          <section>
+          <h4>Skills</h4>
+          <ul>
+            <li>Engineering</li>
+            <li>Business Strategy</li>
+          </ul>
+         </section>
+         <section>
+          <h4>Hobbies</h4>
+          <ul>
+            <li>Reading</li>
+          </ul>
+        </section>
+      </div>
+    </div>
   </div>
 </body>
 </html>
