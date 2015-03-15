@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-  <title>Home</title>
+  <title>Join</title>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="index.css">
@@ -10,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-
+    
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -21,8 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>Home<span class="sr-only">(current)</span></a>
-          </a>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>Home</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -30,7 +30,7 @@
             <li><a href="resume.html"><i class="fa fa-file-text-o"></i> Resume</a></li>
             <li><a href="services.html"><i class="fa fa-briefcase"></i> Services</a></li>
             <!-- <li><a href="achievements.html">Achievements</a></li> -->
-            <li><a href="join.html"><i class="fa fa-sign-in"></i> Join</a></li>
+            <li class="active"><a href="join.html"><i class="fa fa-sign-in"></i> Join<span class="sr-only">(current)</span></a></li>
           </ul>
          
           <ul class="nav navbar-nav navbar-right">
@@ -45,28 +45,44 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="jumbotron">
-      <h1>Eugene Chang Consulting</h1>
-      <h2>Business School and Tutoring Services</h2>
-      <h3><a href="join.html" class="btn btn-primary">Sign-up Now!</a></h3>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <center><h4>Working with us is an investment in you.</h4></center>
-        <center><img src="images/invest.jpg" width="300" height="200"></center>
-        <center><p>Start investing today.</p></center>
-      </div>
-      <div class="col-sm-4">
-        <center><h4>Get inside tips from successful business school and management consultant applicants.</h4></center>
-        <center><img src="images/success.jpg" width="300" height="200"></center>
-        <center><p>Get the real facts.</p></center>
-      </div>
-      <div class="col-sm-4">
-        <center><h4>Premier services and resources at a fraction of the cost.</h4></center>
-        <center><img src="images/value.jpg" width="300" height="200"></center>
-        <center><p>Gain your edge.</p></center>
-      </div>
+    <form role="form">
+
+<div class="box">
+                <div class="col-lg-12">
+                   
+            
+                    <div class="sentence">
+
+                    <p>Please leave your contact information below along with a brief message and I'll get back to you shortly!</p>
+
+                    </div>
+
+    
+        <div class="row">
+            <div class="form-group col-lg-4">
+                <label>Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group col-lg-4">
+                <label>Email Address</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group col-lg-4">
+                <label>Phone Number</label>
+                <input type="tel" class="form-control">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group col-lg-12">
+                <label>Message</label>
+                <textarea class="form-control" rows="6"></textarea>
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="hidden" name="save" value="contact">
+                <input type="submit" class='btn-primary' value="Submit" onclick="window.location.href='mailto:bschoolconsulting@gmail.com'">
+
     </div>
   </div>
 </body>
 </html>
+
+
