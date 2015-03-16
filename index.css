@@ -1,29 +1,4 @@
-/*body {
-	background: url(images/homebg.jpg);
-}
-/*h1 {*/
-	/*font-size: 60px;*/
-}
-/*h2 {*/
-	/*border-bottom: solid 1px gray;*/
-}
 #summary {
   border-bottom: solid 1px gray;
-}
-#second_entry {
-  clear: both;
-  background-color: #606060;
-  padding: 2px 5px 2px 5px;
-  border: 0px;
-  margin: 0px;
-  color: white;
-  float: right;
-}
-#third_entry {
-  clear: both;
-  background-color: #303030;
-  padding: 2px 5px 2px 5px;
-  border: 0px;
-  margin: 0px;
-  color: white;
+  margin-bottom: 0px;
 }
