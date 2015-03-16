@@ -11,7 +11,6 @@
 </head>
 <body>
   <div class="container">
-    
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,42 +43,40 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <form role="form">
-
-<div class="box">
-                <div class="col-lg-12">
-                   
-            
-                    <div class="sentence">
-
-                    <p>Please leave your contact information below along with a brief message and I'll get back to you shortly!</p>
-
-                    </div>
-
-    
-        <div class="row">
-            <div class="form-group col-lg-4">
-                <label>Name</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="form-group col-lg-4">
-                <label>Email Address</label>
-                <input type="email" class="form-control">
-            </div>
-            <div class="form-group col-lg-4">
-                <label>Phone Number</label>
-                <input type="tel" class="form-control">
-            </div>
-            <div class="clearfix"></div>
-            <div class="form-group col-lg-12">
-                <label>Message</label>
-                <textarea class="form-control" rows="6"></textarea>
-            </div>
-            <div class="form-group col-lg-12">
-                <input type="hidden" name="save" value="contact">
-                <input type="submit" class='btn-primary' value="Submit" onclick="window.location.href='mailto:bschoolconsulting@gmail.com'">
-
+    <div class="row">
+      <h3>Please enter your contact number a brief message about the services you are interested in.  You will receive a follow-up email shortly.</h3>
     </div>
+
+    <div class="row">    
+      <form>
+        <div class="form-group col-lg-4">
+          <label for="exampleInputName1">Name</label>
+          <input type="text" class="form-control" id="exampleInputName1" placeholder="Jane Smith">
+        </div>
+        <div class="form-group col-lg-4">
+          <label for="exampleInputEmail1">Email Address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="jane.smith@email.com">
+        </div>          
+        <div class="form-group col-lg-4">
+          <label for="exampleInputPhone1">Phone Number</label>
+          <input type="text" class="form-control" id="exampleInputPhone1" placeholder="888-888-8888">
+        </div>
+      </form>
+    </div> <!-- closes div class="row" -->
+
+    <div class="row">    
+      <form>
+        <div class="form-group col-lg-12">
+          <label>Message</label>
+          <textarea class="form-control" rows="6"></textarea>
+        </div>
+      </form>
+    </div> <!-- closes div class="row" -->
+
+    <div class="row">
+      <input type="submit" class='btn-primary' value="Submit" onclick="window.location.href='mailto:bschoolconsulting@gmail.com'">
+    </div>
+  
   </div>
 </body>
 </html>
